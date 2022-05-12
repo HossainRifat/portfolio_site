@@ -1,4 +1,6 @@
+
 /* header */
+
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -38,4 +40,20 @@
   .right-header {
     float: right;
     margin-top: 15px;
+  }
+
+
+  /* about me  */
+  
+  .about-me {
+    position:absolute;
+    top: 300px;
+    left: 500px;
+  }
+
+  .about-me .profile-image {
+    border-radius: 150px;
+    padding: 2px;
+    border-style: solid;
+    border-color: darkgrey;
   }

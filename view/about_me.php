@@ -9,6 +9,14 @@
     <title>Md. Rifat | About Me</title>
 </head>
 <body>
-    
+    <div class="about-me">
+        <table>
+            <tr>
+                <td>
+                    <img class="profile-image" src="../photo/profile.jpg" alt="profile" height="300" width="300">
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
