@@ -46,14 +46,74 @@
   /* about me  */
   
   .about-me {
+    font-family: Arial, Helvetica, sans-serif;
     position:absolute;
-    top: 300px;
-    left: 500px;
+    top: 220px;
+    left: 300px;
   }
 
   .about-me .profile-image {
     border-radius: 150px;
-    padding: 2px;
+    padding: 4px;
     border-style: solid;
     border-color: darkgrey;
+    border-width: 8px;
+    box-shadow: 0px 0px 8px 10px rgb(231, 231, 231)
+  }
+
+  .about-me .name {
+    margin-left: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .about-me .skill {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-bottom: 0;
+    color: rgb(151, 151, 151);
+    
+  }
+
+  .about-me .details{
+    color: rgb(80, 80, 80);
+    line-height: 1.6;
+    margin-left: 15px;
+    margin-right: 340px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .about-me .button-box {
+    margin-top: 35px;
+    margin-left: 18px;
+  }
+
+  .about-me .button-box .button {
+    font-size: 15px;
+    color: grey;
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 20px;
+  }
+
+  .about-me .button-box .button:hover {
+    background-color: rgb(99, 99, 99);
+    border-color: rgb(131, 131, 131);
+    color: #f1f1f1;
+  }
+
+  .note {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
   }
